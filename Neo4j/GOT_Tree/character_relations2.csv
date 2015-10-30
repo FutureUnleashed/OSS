@@ -1,0 +1,78 @@
+relation1,relation2,relation
+Eddard Stark,Arya Stark,parent_of
+Eddard Stark,Bran Stark,parent_of
+Eddard Stark,Jon Snow,parent_of
+Eddard Stark,Rickard Stark,parent_of
+Eddard Stark,Rickon Stark,parent_of
+Eddard Stark,Robb Stark,parent_of
+Eddard Stark,Sansa Stark,parent_of
+Catelyn Tully,Arya Stark,parent_of
+Catelyn Tully,Bran Stark,parent_of
+Catelyn Tully,Jon Snow,parent_of
+Catelyn Tully,Rickard Stark,parent_of
+Catelyn Tully,Rickon Stark,parent_of
+Catelyn Tully,Robb Stark,parent_of
+Catelyn Tully,Sansa Stark,parent_of
+Eddard Stark,Catelyn Tully,spouse
+Catelyn Tully,Eddard Stark,spouse
+Robb Stark,Talisa Stark,spouse
+Talisa Stark,Robb Stark,spouse
+Jon Snow,Ygritte,loves
+Ygritte,Jon Snow,loves
+Tyrion Lannister,Sansa Stark,spouse
+Sansa Stark,Tyrion Lannister,spouse
+Robert Baratheon,Cersei Lannister,spouse
+Cersei Lannister,Robert Baratheon,spouse
+Jaime Lannister,Cersei Lannister,loves
+Cersei Lannister,Jaime Lannister,loves
+Jaime Lannister,Cersei Lannister,sibling_of
+Cersei Lannister,Jaime Lannister,sibling_of
+Robert Baratheon,Myrcella Baratheon,parent_of
+Robert Baratheon,Joffrey Baratheon,parent_of
+Robert Baratheon,Tommen Baratheon,parent_of
+Robert Baratheon,Gendry,parent_of
+Myrcella Baratheon,Cersei Lannister,parent_of
+Joffrey Baratheon,Cersei Lannister,parent_of
+Tommen Baratheon,Cersei Lannister,parent_of
+Jaime Lannister,Myrcella Baratheon,bioparent_of
+Jaime Lannister,Joffrey Baratheon,bioparent_of
+Jaime Lannister,Tommen Baratheon,bioparent_of
+Tyrion Lannister,Shae,loves
+Shae,Tyrion Lannister,loves
+Joffrey Baratheon,Margaery Tyrell,spouse
+Margaery Tyrell,Joffrey Baratheon,spouse
+Tommen Baratheon,Margaery Tyrell,spouse
+Margaery Tyrell,Tommen Baratheon,spouse
+Tywin Lannister,Tyrion Lannister,parent_of
+Tywin Lannister,Jaime Lannister,parent_of
+Tywin Lannister,Cersei Lannister,parent_of
+Renly Baratheon,Margaery Tyrell,spouse
+Margaery Tyrell,Renly Baratheon,spouse
+Stannis Baratheon,Selyse Florent,spouse
+Selyse Florent,Stannis Baratheon,spouse
+Stannis Baratheon,Shireen Baratheon,parent_of
+Selyse Florent,Shireen Baratheon,parent_of
+Aegon I Targaryen,Aemon Targaryen,sibling_of
+Aemon Targaryen,Aegon I Targaryen,sibling_of
+Aemon Targaryen,Aerys II Targaryen,sibling_of
+Aerys II Targaryen,Aemon Targaryen,sibling_of
+Aerys II Targaryen,Daenerys Targaryen,parent_of
+Aerys II Targaryen,Viserys Targaryen,parent_of
+Daenerys Targaryen,Viserys Targaryen,sibling_of
+Viserys Targaryen,Daenerys Targaryen,sibling_of
+Daenerys Targaryen,Drogo,spouse
+Drogo,Daenerys Targaryen,spouse
+Daario Naharis,Daenerys Targaryen,loves
+Daenerys Targaryen,Daario Naharis,loves
+Jorah Mormont,Daenerys Targaryen,loves
+Daenerys Targaryen,Drogon,parent_of
+Daenerys Targaryen,Rhaegal,parent_of
+Daenerys Targaryen,Viserion,parent_of
+Jeor Mormont,Jorah Mormont,parent_of
+Selyse Florent,Theon Greyjoy,parent_of
+Selyse Florent,Yara Greyjoy,parent_of
+Roose Bolton,Ramsay Snow,parent_of
+Ramsay Snow,Sansa Stark,spouse
+Sansa Stark,Ramsay Snow,spouse
+Yara Greyjoy,Theon Greyjoy,sibling_of
+Theon Greyjoy,Yara Greyjoy,sibling_of

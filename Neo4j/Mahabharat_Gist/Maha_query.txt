@@ -1,0 +1,116 @@
+CREATE (Vichitravirya:Person {name : 'Vichitravirya', gender : 'Male'})
+CREATE (Ambika:Person {name : 'Ambika',  gender : 'Female'})
+CREATE (Ambalika:Person {name : 'Ambalika',  gender : 'Female'})
+
+CREATE (Bhishma:Person {name : 'Bhishma', gender : 'Male'})
+
+CREATE (Shikhandi:Person {name : 'Shikhandi', gender : 'Male'})
+CREATE (Susharma:Person {name : 'Susharma', gender : 'Male'})
+CREATE (Jayadratha:Person {name : 'Jayadratha', gender : 'Male'})
+CREATE (Ghatotkacha:Person {name : 'Ghatotkacha', gender : 'Male'})
+CREATE (Drona:Person {name : 'Drona', gender : 'Male'})
+CREATE (Satyasena:Person {name : 'Satyasena', gender : 'Male'})
+CREATE (Sushena:Person {name : 'Sushena', gender : 'Male'})
+
+CREATE (Pandu:Person {name : 'Pandu', gender : 'Male'})
+CREATE (Dhrit:Person {name : 'Dhritrashtra', gender : 'Male'})
+
+CREATE (Kunti:Person {name : 'Kunti',  gender : 'Female'})
+CREATE (Gandhari:Person {name : 'Gandhari',  gender : 'Female'})
+CREATE (Madri:Person {name : 'Madri',  gender : 'Female'})
+
+
+CREATE (Yudhi:Person {name : 'Yudhishthira', gender : 'Male'})
+CREATE (Arjuna:Person {name : 'Arjuna', gender : 'Male'})
+CREATE (Bhima:Person {name : 'Bhima', gender : 'Male'})
+CREATE (Nakul:Person {name : 'Nakul', gender : 'Male'})
+CREATE (Sahadev:Person {name : 'Sahadev', gender : 'Male'})
+CREATE (Karna:Person {name : 'Karna', gender : 'Male'})
+
+CREATE (Karna)-[:FATHER_OF]->(Satyasena)
+CREATE (Karna)-[:FATHER_OF]->(Sushena)
+
+CREATE (Duryo:Person {name : 'Duryodhana', gender : 'Male'})
+CREATE (Dushasan:Person {name : 'Dushasan', gender : 'Male'})
+CREATE (Dusshala:Person {name : 'Dusshala', gender : 'Female'})
+
+CREATE (Draupadi:Person {name : 'Draupadi',  gender : 'Female'})
+CREATE (Subhadra:Person {name : 'Subhadra',  gender : 'Female'})
+
+CREATE (Abhimanyu:Person {name : 'Abhimanyu', gender : 'Male'})
+CREATE (Uttara:Person {name : 'Uttara',  gender : 'Female'})
+CREATE (Laxmana:Person {name : 'Laxmana', gender : 'Male'})
+
+
+CREATE (Parikshit:Person {name : 'Parikshit', gender : 'Male'})
+CREATE (Shalya:Person {name : 'Shalya', gender : 'Male'})
+
+CREATE (Jayd:Person {name : 'Jaydrath', gender : 'Male'})
+CREATE (Dhristadyumna:Person {name : 'Dhristadyumna', gender : 'Male'})
+CREATE (Shakuni:Person {name : 'Shakuni', gender : 'Male'})
+
+CREATE (Virata:Person {name : 'Virata', gender : 'Male'})
+CREATE (Uttar:Person {name : 'Uttar', gender : 'Male'})
+CREATE (Sweta:Person {name : 'Sweta', gender : 'Male'})
+
+CREATE (KWar {name : 'Kurukshetra War'})
+
+CREATE (Vichitravirya)-[:HUSBAND_OF]->(Ambika)
+CREATE (Vichitravirya)-[:HUSBAND_OF]->(Ambalika)
+
+CREATE (Ambalika)-[:MOTHER_OF]->(Pandu)
+CREATE (Ambika)-[:MOTHER_OF]->(Dhrit)
+
+CREATE (Pandu)-[:HUSBAND_OF]->(Kunti)
+CREATE (Dhrit)-[:HUSBAND_OF]->(Gandhari)
+
+CREATE (Kunti)-[:MOTHER_OF]->(Yudhi)
+CREATE (Kunti)-[:MOTHER_OF]->(Arjuna)
+CREATE (Kunti)-[:MOTHER_OF]->(Bhima)
+CREATE (Kunti)-[:MOTHER_OF]->(Karna)
+
+CREATE (Madri)-[:MOTHER_OF]->(Nakul)
+CREATE (Madri)-[:MOTHER_OF]->(Sahadev)
+
+CREATE (Gandhari)-[:MOTHER_OF]->(Duryo)
+CREATE (Gandhari)-[:MOTHER_OF]->(Dushasan)
+CREATE (Gandhari)-[:MOTHER_OF]->(Dusshala)
+
+CREATE (Yudhi)-[:HUSBAND_OF]->(Draupadi)
+CREATE (Arjuna)-[:HUSBAND_OF]->(Draupadi)
+CREATE (Bhima)-[:HUSBAND_OF]->(Draupadi)
+CREATE (Sahadev)-[:HUSBAND_OF]->(Draupadi)
+CREATE (Nakul)-[:HUSBAND_OF]->(Draupadi)
+
+CREATE (Arjuna)-[:HUSBAND_OF]->(Subhadra)
+
+CREATE (Subhadra)-[:MOTHER_OF]->(Abhimanyu)
+CREATE (Abhimanyu)-[:HUSBAND_OF]->(Uttara)
+CREATE (Uttara)-[:MOTHER_OF]->(Parikshit)
+CREATE (Duryo)-[:FATHER_OF]->(Laxmana)
+
+
+
+CREATE (Virata)-[:FATHER_OF]->(Uttar)
+CREATE (Virata)-[:FATHER_OF]->(Sweta)
+
+CREATE (Shalya)-[:KILLED {Day : '1'}]->(Uttar)
+CREATE (Shalya)-[:KILLED {Day : '1'}]->(Sweta)
+CREATE (Shikhandi)-[:SUBDUED_ON {Day : '10'}]->(Bhishma)
+CREATE (Arjuna)-[:KILLED {Day : '12'}]->(Susharma)
+CREATE (Abhimanyu)-[:KILLED {Day : '13'}]->(Laxmana)
+
+CREATE (Dushasan)-[:KILLED {Day : '13'}]->(Abhimanyu)
+
+CREATE (Arjuna)-[:KILLED {Day : '14'}]->(Jayadratha)
+CREATE (Karna)-[:KILLED {Day : '14'}]->(Ghatotkacha)
+CREATE (Dhristadyumna)-[:KILLED {Day : '15'}]->(Drona)
+CREATE (Bhima)-[:KILLED {Day : '16'}]->(Dushasan)
+CREATE (Arjuna)-[:KILLED {Day : '17'}]->(Karna)
+
+CREATE (Nakul)-[:KILLED {Day : '18'}]->(Satyasena)
+CREATE (Nakul)-[:KILLED {Day : '18'}]->(Sushena)
+CREATE (Bhima)-[:KILLED {Day : '18'}]->(Duryo)
+
+CREATE (Yudhi)-[:KILLED {Day : '18'}]->(Shalya)
+CREATE (Sahadev)-[:KILLED {Day : '18'}]->(Shakuni)
